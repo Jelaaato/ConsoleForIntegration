@@ -6,10 +6,9 @@ using System.Threading.Tasks;
 
 namespace TestClient.Model
 {
-    public class CommentsModel
+    public class Usermodel
     {
-        public int commentId { get; set; }
-        public string userName { get; set; }
-        public string message { get; set; }
+        public string Username { get; set; }
+        public string Password { get; set; }
     }
 }

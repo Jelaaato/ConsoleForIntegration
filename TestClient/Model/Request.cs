@@ -12,10 +12,12 @@ namespace TestClient.Model
     using System;
     using System.Collections.Generic;
     
-    public partial class Comments
+    public partial class Request
     {
-        public int commentId { get; set; }
-        public string userName { get; set; }
-        public string message { get; set; }
+        public System.Guid request_id { get; set; }
+        public System.DateTime request_datetime { get; set; }
+        public string hospital_number { get; set; }
+        public string request_type { get; set; }
+        public System.DateTime date_of_birth { get; set; }
     }
 }

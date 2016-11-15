@@ -4,9 +4,7 @@
   <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
     <!-- Diagram content (shape and connector positions) -->
     <edmx:Diagrams>
-      <Diagram DiagramId="aa4d0c44b178469f875ac1ffd91df5f6" Name="Diagram1">
-        <EntityTypeShape EntityType="CommentsTblModel.Comments" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
-      </Diagram>
+      <Diagram DiagramId="15426dfe422b48b98efa87e2236dbb6a" Name="Diagram1" />
     </edmx:Diagrams>
   </edmx:Designer>
 </edmx:Edmx>

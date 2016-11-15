@@ -13,10 +13,10 @@ namespace TestClient.Model
     using System.Data.Entity;
     using System.Data.Entity.Infrastructure;
     
-    public partial class CommentsEntities : DbContext
+    public partial class RequestsEntities : DbContext
     {
-        public CommentsEntities()
-            : base("name=CommentsEntities")
+        public RequestsEntities()
+            : base("name=RequestsEntities")
         {
         }
     
@@ -25,6 +25,6 @@ namespace TestClient.Model
             throw new UnintentionalCodeFirstException();
         }
     
-        public virtual DbSet<Comments> Comments { get; set; }
+        public virtual DbSet<Request> Requests { get; set; }
     }
 }
