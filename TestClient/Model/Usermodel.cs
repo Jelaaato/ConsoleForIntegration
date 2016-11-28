@@ -11,4 +11,11 @@ namespace TestClient.Model
         public string Username { get; set; }
         public string Password { get; set; }
     }
+
+    public class TestModel
+    {
+        public string hospital_number { get; set; }
+        public string date_of_birth { get; set; }
+        public string request_type { get; set; }
+    }
 }
