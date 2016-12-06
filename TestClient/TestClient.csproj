@@ -95,7 +95,6 @@
   <ItemGroup>
     <Compile Include="BusinessLogic\DatabaseListener.cs" />
     <Compile Include="BusinessLogic\SendPostRequestToGateway.cs" />
-    <Compile Include="BusinessLogic\Test.cs" />
     <Compile Include="Model\DeleteRequestModel.cs" />
     <Compile Include="Model\Request.cs">
       <DependentUpon>RequestsModel.tt</DependentUpon>
